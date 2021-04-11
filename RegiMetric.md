@@ -59,6 +59,7 @@ func init() {
 }
 ```
 使用NewRegistry可以创建custom registry，或者可以自己实现Registerer 或Gatherer接口。
+
 你可以调用以下函数来创建注册表
 ```go
 // 不预先注册任何收集器的注册表

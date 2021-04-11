@@ -14,6 +14,7 @@ client_golang是Prometheus的官方golang客户端库。它有两个独立的部
 * [暴露指标](ExportMetric.md)
 
 生成一个exporter简单例子
+
 ```go
 // A minimal example of how to include Prometheus instrumentation.
 package main

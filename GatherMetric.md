@@ -193,7 +193,7 @@ func (e *Node) Collect(ch chan<- prometheus.Metric) {
    e.HdFailures.Collect(ch)
 }
 ```
-再来看下面的一直方法，体会两种的不同和适用场景
+ - 再来看下面的一直方法，体会两种的不同和适用场景
 ```go
 package main
 

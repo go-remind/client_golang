@@ -70,7 +70,6 @@ func main() {
 }
 ```
 访问`http://localhost:2112/metrics`, 获取指标如下
-
 ```
 # HELP cpu_temperature_celsius Current temperature of the CPU.
 # TYPE cpu_temperature_celsius gauge

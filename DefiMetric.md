@@ -19,6 +19,7 @@ Histogram 在一段时间范围内对数据进行采样（通常是请求持续�
 每种类型都有对应的vector版本：GaugeVec, CounterVec, SummaryVec, HistogramVec，vector版本细化了prometheus数据模型，增加了label(name=value)维度
 
 以Gauge为例
+
 ```go
 type Gauge interface {
     // 实现的接口
