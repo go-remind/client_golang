@@ -75,3 +75,4 @@ func main() {
 # TYPE cpu_temperature_celsius gauge
 cpu_temperature_celsius 0
 ```
+[首页](README.md)

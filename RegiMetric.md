@@ -135,3 +135,4 @@ type Gatherer interface {
 
 }
 ```
+[收集指标](GatherMetric.md)

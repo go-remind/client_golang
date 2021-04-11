@@ -176,6 +176,7 @@ type Opts struct {
         []string{"device"},
     )
 ```
+[注册指标](RegiMetric.md)
 
 
 

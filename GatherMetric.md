@@ -294,3 +294,5 @@ func NewConstMetric(desc *Desc, valueType ValueType, value float64, labelValues 
 }
 ```
 通过改方法的注释，NewConstMetric返回一个具有一个不能更改的固定值的度量。此软件包的用户在常规操作中不会有太多用处。但是，在实现自定义收集器时，它是一个很有用的一次性指标，可以在Collect方法中动态生成并发送给Prometheus。如果labelValues的长度与Desc中的变量标签不一致或Desc无效，NewConstMetric将返回错误。
+
+[暴露指标](ExportMetric.md)
